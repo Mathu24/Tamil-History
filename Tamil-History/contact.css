@@ -1,0 +1,167 @@
+
+
+body {
+    background-color: #f3e8da;
+    
+}
+
+header{
+    background-color:#ebdece   ; 
+
+    
+}
+
+.title {
+    font-family: rockwell-nova, sans-serif;
+    font-style: normal;
+    font-size: 90px;
+    color: #707070 ;
+    text-align: right;
+    float: left; 
+    letter-spacing: 40px;
+    padding-left: 300px ;
+    border-right: #707070 solid;
+    border-width: 5px;
+    
+}
+
+.logoheader {
+
+float: right;
+width: 300px;
+height: auto;
+border-radius: 100%;
+margin-right: 350px;
+margin-top: 50px;
+}
+
+
+.nav {
+    background-color: #cfc2b3 ;
+    overflow: hidden;
+    width: 100%;
+    height: 10%;
+    word-spacing: 200px;
+
+    text-align: center;
+    flex: space-between;
+    align-items: center;
+    display: block;
+
+    
+    
+    
+}
+
+.nav a {
+    float: center;
+    color:#707070 ; 
+    
+    padding: 14px 16px;
+    font-family: rockwell-nova, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+.nav a:hover {
+   text-decoration: underline; 
+}
+
+.nav a.active {
+    font-weight: bold;
+   text-decoration: underline; 
+
+}
+
+.break:after {
+    content: '\A';
+     white-space: pre;    
+}
+
+.Contact {
+    background-color: #fcf2e5;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+
+    font-family: garamond-premier-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+}
+
+.undertitle {
+    font-size: 50px;
+    letter-spacing: 10px;
+
+}
+
+
+
+.footer {
+    font-family: garamond-premier-pro, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background:#cfc2b3 ;
+    color: #707070;
+
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: #707070;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.footer_column1 {
+    
+    color: #707070;
+    grid-column: 1;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+}
+
+
+.footer_column2 {
+    color: #707070;
+    grid-column: 2;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+   
+    
+    
+}
+
+.footer_column3 {
+    color: #707070;
+    grid-column: 3;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+ 
+    
+    
+}
